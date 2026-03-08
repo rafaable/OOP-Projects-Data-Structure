@@ -202,5 +202,7 @@ public class BootcampProgram {
         else bootcamp.setPaymentMethod("Cash");
 
         bootcamp.displaySummary();
+        input.close();
     }
+
 }
